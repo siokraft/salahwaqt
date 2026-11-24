@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Salah Waqt · Desktop Prayer Times by SIOKRAFT</title>
+  <meta name="description" content="SIOKRAFT's Salah Waqt is a free Windows and Linux app with offline prayer times, a live countdown, reminders, a Hijri calendar and a Ramadan timetable.">
+  <meta name="keywords" content="prayer times, salah times, namaz times, adhan, prayer notifications, forbidden prayer times, Hijri calendar, Islamic app, Linux, Ubuntu, Linux Mint">
+  <meta name="author" content="SIOKRAFT">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f5b301">
+  <link rel="canonical" href="https://salahwaqt.siokraft.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Salah Waqt">
+  <meta property="og:title" content="Salah Waqt · Desktop Prayer Times by SIOKRAFT">
+  <meta property="og:description" content="Prayer times, prayer notifications, a Ramadan timetable and forbidden times. Free, with no hidden charges, subscriptions or ads.">
+  <meta property="og:url" content="https://salahwaqt.siokraft.com/">
+  <meta property="og:image" content="https://salahwaqt.siokraft.com/assets/app-icon-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="Salah Waqt app icon">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Salah Waqt · Desktop Prayer Times by SIOKRAFT">
+  <meta name="twitter:description" content="Prayer times, prayer notifications, a Ramadan timetable and forbidden times. Free, with no hidden charges, subscriptions or ads.">
+  <meta name="twitter:image" content="https://salahwaqt.siokraft.com/assets/app-icon-512.png">
+
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/app-icon-256.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/app-icon-256.png">
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Salah Waqt",
+    "description": "Prayer times, reminders, a Ramadan timetable and forbidden times for your desktop. Prayer times are calculated on your device, and your settings stay there.",
+    "url": "https://salahwaqt.siokraft.com/",
+    "image": "https://salahwaqt.siokraft.com/assets/app-icon-512.png",
+    "applicationCategory": "LifestyleApplication",
+    "operatingSystem": "64-bit Windows 10 and 11, Ubuntu 22.04+, Linux Mint 21+, Debian 12+",
+    "screenshot": "https://salahwaqt.siokraft.com/assets/today-screen.webp",
+    "softwareVersion": "1.0.0",
+    "downloadUrl": "https://github.com/siokraft/salahwaqt/releases",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "publisher": { "@type": "Organization", "name": "SIOKRAFT", "email": "siokraft@gmail.com" }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.18"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+      --color-gold: #f5b301;
+      --color-gold-deep: #8f6b00;
+      --color-gold-soft: #fff9e1;
+      --color-gold-night: #322d1f;
+    }
+  </style>
+</head>
+<body class="bg-white text-zinc-900 antialiased dark:bg-[#111113] dark:text-zinc-100">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:rounded-lg focus:bg-gold focus:px-4 focus:py-2 focus:text-zinc-900">Skip to content</a>
+
+  <header class="border-b border-zinc-200 dark:border-zinc-800">
+    <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6" aria-label="Main">
+      <a href="#" class="flex items-center gap-3 font-semibold">
+        <img src="assets/app-icon-256.png" alt="" width="32" height="32" class="rounded-lg">
+        <span>Salah Waqt</span>
+      </a>
+      <div class="flex items-center gap-6 text-sm">
+        <a href="#features" class="hidden text-zinc-600 hover:text-zinc-900 sm:inline dark:text-zinc-400 dark:hover:text-white">Features</a>
+        <a href="#privacy" class="hidden text-zinc-600 hover:text-zinc-900 sm:inline dark:text-zinc-400 dark:hover:text-white">Privacy</a>
+        <a href="#install" class="hidden text-zinc-600 hover:text-zinc-900 sm:inline dark:text-zinc-400 dark:hover:text-white">Install</a>
+        <a href="https://github.com/siokraft/salahwaqt/releases" class="rounded-lg bg-zinc-900 px-4 py-2 font-medium text-white hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200">Download</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="mx-auto grid max-w-5xl items-center gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 md:py-24">
+      <div>
+        <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Muslim prayer times for your desktop</h1>
+        <p class="mt-5 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
+          Offline prayer times, live countdowns, and reminders. Free for Windows and Linux.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="https://github.com/siokraft/salahwaqt/releases" class="inline-flex items-center gap-2 rounded-lg bg-gold px-5 py-3 font-semibold text-zinc-900 hover:brightness-95">
+            <svg class="h-5 w-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m-4-4 4 4 4-4M5 15v4a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-4"/></svg>
+            View downloads
+          </a>
+          <a href="#install" class="rounded-lg border border-zinc-300 px-5 py-3 font-semibold hover:bg-zinc-50 dark:border-zinc-700 dark:hover:bg-zinc-900">How to install</a>
+        </div>
+      </div>
+
+      <!-- The Today screen -->
+      <figure class="overflow-hidden rounded-2xl border border-zinc-200 shadow-lg dark:border-zinc-800">
+        <img src="assets/today-screen.webp" width="1280" height="759" fetchpriority="high" class="block h-auto w-full"
+          alt="Salah Waqt Today screen showing the Asr countdown, forbidden times, and all five prayer cards for Dhaka">
+      </figure>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="border-t border-zinc-200 dark:border-zinc-800">
+      <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 md:py-20">
+        <h2 class="text-3xl font-bold tracking-tight">Features</h2>
+
+        <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
+            <svg class="h-6 w-6 text-gold-deep dark:text-gold" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+            <h3 class="mt-4 font-semibold">Live countdown</h3>
+            <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">See how much time is left and when the next prayer starts.</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
+            <svg class="h-6 w-6 text-gold-deep dark:text-gold" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"/></svg>
+            <h3 class="mt-4 font-semibold">Prayer notifications</h3>
+            <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Get alerts when selected prayers start and before they end.</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
+            <svg class="h-6 w-6 text-gold-deep dark:text-gold" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"/></svg>
+            <h3 class="mt-4 font-semibold">Forbidden times</h3>
+            <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">See when to avoid voluntary prayer, with Hadith references.</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
+            <svg class="h-6 w-6 text-gold-deep dark:text-gold" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg>
+            <h3 class="mt-4 font-semibold">Calendar with Hijri dates</h3>
+            <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Browse daily prayer and fasting times.</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
+            <svg class="h-6 w-6 text-gold-deep dark:text-gold" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <h3 class="mt-4 font-semibold">Saved locations</h3>
+            <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Switch between cities without redoing your prayer settings.</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
+            <svg class="h-6 w-6 text-gold-deep dark:text-gold" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"/></svg>
+            <h3 class="mt-4 font-semibold">Desktop controls</h3>
+            <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Start at sign-in, keep reminders in the tray, and customize text size and theme.</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800 sm:col-span-2 lg:col-span-3">
+            <svg class="h-6 w-6 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linejoin="round" d="M21 13.1A9 9 0 1 1 10.9 3 7 7 0 0 0 21 13.1Z"/></svg>
+            <h3 class="mt-4 font-semibold">Ramadan timetable</h3>
+            <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">See Suhoor and Iftar countdowns and adjust your fasting times.</p>
+          </article>
+        </div>
+
+        <section id="notifications" class="mt-10" aria-labelledby="notifications-title">
+          <h3 id="notifications-title" class="text-xl font-semibold">Notification settings</h3>
+
+          <div class="mt-4 grid gap-4 md:grid-cols-2">
+            <div class="rounded-2xl border border-gold-deep/30 bg-gold-soft p-5 dark:border-gold/25 dark:bg-gold-night">
+              <div class="flex items-center gap-2.5">
+                <svg class="h-5 w-5 shrink-0 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16M8 4v4m8 2v4m-6 2v4"/></svg>
+                <h4 class="font-semibold">In Salah Waqt</h4>
+              </div>
+              <dl class="mt-4 space-y-3 text-sm">
+                <div>
+                  <dt class="font-medium">Settings → Notifications</dt>
+                  <dd class="mt-1 text-zinc-600 dark:text-zinc-300">Choose which prayers and reminders send alerts.</dd>
+                </div>
+                <div>
+                  <dt class="font-medium">Settings → General → Startup</dt>
+                  <dd class="mt-1 text-zinc-600 dark:text-zinc-300">Choose whether Salah Waqt opens when you sign in.</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="rounded-2xl border border-zinc-200 p-5 dark:border-zinc-800">
+              <div class="flex items-center gap-2.5">
+                <svg class="h-5 w-5 shrink-0 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path stroke-linecap="round" d="M12 17v4m-4 0h8"/></svg>
+                <h4 class="font-semibold">On your computer</h4>
+              </div>
+              <p class="mt-3 text-sm text-zinc-600 dark:text-zinc-400">Control pop-ups and lock-screen alerts.</p>
+              <div class="mt-3 divide-y divide-zinc-200 text-sm dark:divide-zinc-800">
+                <details class="py-2">
+                  <summary class="cursor-pointer font-medium">Windows notification settings</summary>
+                  <p class="mt-2 text-zinc-600 dark:text-zinc-400">Open <strong>Settings → System → Notifications</strong> on Windows 11. On Windows 10, choose <strong>Notifications &amp; actions</strong>. For missing alerts, check Do Not Disturb or Focus assist.</p>
+                </details>
+                <details class="py-2">
+                  <summary class="cursor-pointer font-medium">Linux notification settings</summary>
+                  <p class="mt-2 text-zinc-600 dark:text-zinc-400">Open <strong>Settings → Notifications</strong> on GNOME or <strong>System Settings → Notifications</strong> on Cinnamon.</p>
+                </details>
+              </div>
+            </div>
+          </div>
+
+          <p class="mt-3 text-sm text-zinc-600 dark:text-zinc-400">Keep Salah Waqt running in the window or tray to receive alerts.</p>
+        </section>
+      </div>
+    </section>
+
+    <!-- Privacy -->
+    <section id="privacy" class="bg-zinc-50 dark:bg-zinc-900">
+      <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 md:py-20">
+        <h2 class="text-3xl font-bold tracking-tight">Privacy</h2>
+        <ul class="mt-6 grid gap-4 text-sm sm:grid-cols-3">
+          <li class="rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-[#111113]">
+            <svg class="mb-3 h-5 w-5 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m3 3 18 18M3 9a14 14 0 0 1 2.3-1.6M9 5.4A14 14 0 0 1 21 9M6 12a9 9 0 0 1 2.6-1.6m4.8-.4A9 9 0 0 1 18 12m-9 3a4.5 4.5 0 0 1 4.3-1m-1.3 4h.01"/></svg>
+            <h3 class="font-semibold">Works offline</h3>
+            <p class="mt-1 text-zinc-600 dark:text-zinc-400">Prayer times and reminders run on your computer.</p>
+          </li>
+          <li class="rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-[#111113]">
+            <svg class="mb-3 h-5 w-5 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path stroke-linecap="round" d="M8 10V7a4 4 0 1 1 8 0v3m-4 4v3"/></svg>
+            <h3 class="font-semibold">Stored on your device</h3>
+            <p class="mt-1 text-zinc-600 dark:text-zinc-400">Your settings and saved cities stay on your computer.</p>
+          </li>
+          <li class="rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-[#111113]">
+            <svg class="mb-3 h-5 w-5 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="7" r="3.5"/><path stroke-linecap="round" d="M3 20v-2a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v2m1-10h4"/></svg>
+            <h3 class="font-semibold">No account</h3>
+            <p class="mt-1 text-zinc-600 dark:text-zinc-400">The app has no ads, analytics, or tracking.</p>
+          </li>
+        </ul>
+        <details class="mt-4 text-sm">
+          <summary class="cursor-pointer font-medium">How city lookup works</summary>
+          <p class="mt-2 max-w-2xl text-zinc-600 dark:text-zinc-400">Internet lookup can estimate your city from your IP address using ipinfo.io or ipwho.is. For fully offline setup, disconnect from the internet and pick a city from the built-in list.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Install -->
+    <section id="install" class="border-t border-zinc-200 dark:border-zinc-800">
+      <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 md:py-20">
+        <h2 class="text-3xl font-bold tracking-tight">Install Salah Waqt</h2>
+        <p class="mt-3 text-zinc-600 dark:text-zinc-400">Find installers under <strong>Assets</strong> on the <a class="font-medium underline underline-offset-2" href="https://github.com/siokraft/salahwaqt/releases">official Releases page</a>.</p>
+
+        <div class="mt-8 grid gap-6 md:grid-cols-2">
+          <article aria-labelledby="install-windows" class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
+            <div class="flex items-center gap-2.5">
+              <svg class="h-6 w-6 shrink-0 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M12 4v16M4 12h16"/></svg>
+              <h3 id="install-windows" class="text-xl font-semibold">Windows</h3>
+            </div>
+            <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">Windows 10 and 11 (64-bit)</p>
+            <ol class="mt-4 list-decimal space-y-3 pl-5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+              <li>Download <code class="break-all">Salah_Waqt_v&lt;version&gt;.exe</code> when available.</li>
+              <li>Open the installer and follow the prompts.</li>
+              <li>Open <strong>Salah Waqt</strong> from the Start menu and complete setup.</li>
+            </ol>
+            <p class="mt-4 text-sm text-zinc-600 dark:text-zinc-400">Windows may warn about the unsigned installer. Use the official Releases page.</p>
+            <details class="mt-4 text-sm">
+              <summary class="cursor-pointer font-medium">Install options and uninstall</summary>
+              <p class="mt-2 text-zinc-600 dark:text-zinc-400">Installing for everyone requires administrator permission. Updates keep your settings.</p>
+              <p class="mt-2 text-zinc-600 dark:text-zinc-400">To remove the app, go to <strong>Windows Settings → Apps → Salah Waqt → Uninstall</strong>. Setup attempts to remove your settings and startup entries. Other users' settings are kept.</p>
+            </details>
+          </article>
+
+          <article aria-labelledby="install-linux" class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
+            <div class="flex items-center gap-2.5">
+              <svg class="h-6 w-6 shrink-0 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" d="M12 22C7 20 4 16 4 11a8 8 0 1 1 16 0c0 3.7-2.8 6-6 6-3 0-5-1.9-5-4.5A3.5 3.5 0 0 1 16 12"/></svg>
+              <h3 id="install-linux" class="text-xl font-semibold">Linux</h3>
+            </div>
+            <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">Ubuntu 22.04+, Debian 12+, Linux Mint 21+ (64-bit Intel or AMD)</p>
+            <ol class="mt-4 list-decimal space-y-3 pl-5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+              <li>Download <code class="break-all">salah-waqt_&lt;version&gt;_amd64.deb</code> when available.</li>
+              <li>Open the package with App Center or your software installer.</li>
+              <li>Open <strong>Salah Waqt</strong> from your app menu and complete setup.</li>
+            </ol>
+            <details class="mt-4 text-sm">
+              <summary class="cursor-pointer font-medium">Other distributions</summary>
+              <p class="mt-2 text-zinc-600 dark:text-zinc-400">Also supports LMDE 6+, Pop!_OS 22.04+, Zorin OS 17+, and elementary OS 7+.</p>
+            </details>
+            <details class="mt-3 text-sm">
+              <summary class="cursor-pointer font-medium">Terminal install and uninstall</summary>
+              <p class="mt-2 text-zinc-600 dark:text-zinc-400">Run this in your download folder. Replace <code>VERSION</code> with the version in the filename.</p>
+              <pre class="mt-2 whitespace-pre-wrap break-all rounded-lg bg-zinc-900 px-4 py-3 text-zinc-100 dark:bg-black"><code>sudo apt install ./salah-waqt_VERSION_amd64.deb</code></pre>
+              <p class="mt-2 text-zinc-600 dark:text-zinc-400">To uninstall, use <code>sudo apt remove salah-waqt</code>. Use <code>sudo apt purge salah-waqt</code> to clear your settings too.</p>
+            </details>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-zinc-200 dark:border-zinc-800">
+    <div class="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-8 text-sm text-zinc-600 sm:flex-row sm:items-start sm:justify-between sm:px-6 dark:text-zinc-400">
+      <div class="space-y-2">
+        <p>© 2026 SIOKRAFT. All rights reserved.</p>
+        <details>
+          <summary class="cursor-pointer font-medium">Credits and license</summary>
+          <p class="mt-2">Free to use and share unchanged with the license and notices. Resale is prohibited. Selected contributors can request source access.</p>
+          <p class="mt-2">Prayer and fasting times use <a href="https://pub.dev/packages/adhan" class="underline underline-offset-2">adhan</a>. Hijri dates use <a href="https://pub.dev/packages/hijri" class="underline underline-offset-2">hijri</a>, local time uses <a href="https://pub.dev/packages/timezone" class="underline underline-offset-2">timezone</a> with IANA data, and date formatting uses <a href="https://pub.dev/packages/intl" class="underline underline-offset-2">intl</a>.</p>
+          <p class="mt-2">Find full notices in <strong>Settings → About → Open-source licenses</strong>.</p>
+        </details>
+      </div>
+      <div class="flex shrink-0 gap-5">
+        <a href="https://github.com/siokraft/salahwaqt/releases" class="hover:text-zinc-900 dark:hover:text-white">Releases</a>
+        <a href="mailto:siokraft@gmail.com" class="hover:text-zinc-900 dark:hover:text-white">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
