@@ -14,7 +14,7 @@ For 64-bit Windows 10 and 11.
 
 Check the [Microsoft Store section](https://salahwaqt.siokraft.com/#microsoft-store) for availability. For the ZIP installer, follow the steps below.
 
-1. Download `Windows_x64_Salah_Waqt_v1.0.0.zip` from the website.
+1. Download `Salah_Waqt_v1.0.0_Windows_x64_.zip` from the website.
 2. In your **Downloads** folder, right-click the ZIP, choose **Extract All**, then click **Extract**.
 3. Open the new folder. Double-click the **Salah_Waqt_v…** installer and follow the prompts. If included, **readme.pdf** has illustrated instructions.
 4. Open **Salah Waqt** from the Start menu.
@@ -25,7 +25,7 @@ The [website installation guide](https://salahwaqt.siokraft.com/#install) covers
 
 For 64-bit Intel or AMD computers running Ubuntu 22.04 or later, Debian 12 or later, or a compatible system such as Linux Mint 21 or later.
 
-1. Download `Linux_amd64_Salah_Waqt_v1.0.0.deb` from the website.
+1. Download `Salah_Waqt_v1.0.0_Linux_amd64_.deb` from the website.
 2. Open it with your computer’s software installer and choose **Install**.
 3. Open **Salah Waqt** from your app menu.
 
