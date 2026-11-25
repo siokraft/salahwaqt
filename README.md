@@ -12,24 +12,26 @@ Open the [latest release](https://github.com/siokraft/salahwaqt/releases/latest)
 
 For 64-bit Windows 10 and 11.
 
-1. Download the file that starts with **Salah_Waqt_Setup** and ends in **.zip**.
+Check the [Microsoft Store section](https://salahwaqt.siokraft.com/#microsoft-store) for availability. For the ZIP installer, follow the steps below.
+
+1. Download `Windows_x64_Salah_Waqt_v<version>.zip`.
 2. In your **Downloads** folder, right-click the ZIP, choose **Extract All**, then click **Extract**.
-3. Open the new folder. Double-click the **Salah_Waqt_v…** installer and follow the prompts. Open **readme.pdf** if you’d like a guide with pictures.
+3. Open the new folder. Double-click the **Salah_Waqt_v…** installer and follow the prompts. If included, **readme.pdf** has illustrated instructions.
 4. Open **Salah Waqt** from the Start menu.
 
-Windows may show a warning because the installer is unsigned. If you’re unsure, [email SIOKRAFT](mailto:siokraft@gmail.com). To remove the app, look for **Salah Waqt** in **Windows Settings → Apps**.
+The [website installation guide](https://salahwaqt.siokraft.com/#install) covers Microsoft Defender scans and SmartScreen warnings. To remove the app, find **Salah Waqt** in **Windows Settings → Apps**.
 
 ### Linux
 
 For 64-bit Intel or AMD computers running Ubuntu 22.04 or later, Debian 12 or later, or a compatible system such as Linux Mint 21 or later.
 
-1. Download the file that ends in **_amd64.deb**.
+1. Download `Linux_amd64_Salah_Waqt_v<version>.deb`.
 2. Open it with your computer’s software installer and choose **Install**.
 3. Open **Salah Waqt** from your app menu.
 
 ## Using Salah Waqt
 
-Choose your city when you first open the app. The calendar shows prayer times, Hijri dates, and Ramadan fasting times. To turn on reminders, open **Settings → Notifications** and leave the app running.
+Choose your city when you first open the app. The calendar shows prayer times and Hijri dates. The Ramadan timetable shows Suhoor and Iftar times. Set up reminders in **Settings → Notifications** and leave the app open or in the system tray. Turn on **Silent notifications** to receive them without sound.
 
 Your saved cities and settings stay on your computer. The app has no ads, accounts, or built-in tracking. Read the [privacy policy](https://salahwaqt.siokraft.com/privacy.html) for how city lookup works.
 
@@ -37,7 +39,7 @@ Your saved cities and settings stay on your computer. The app has no ads, accoun
 
 Salah Waqt is free to use. You may share the original download for free with its license and credits intact. Resale is prohibited. This repository holds the public website and downloads. SIOKRAFT develops the app internally and keeps the source code private.
 
-Read the [freeware license](https://github.com/siokraft/salahwaqt/blob/master/LICENSE). Third-party credits are available in **Settings → About → Open-source licenses**.
+Read the [freeware license](https://salahwaqt.siokraft.com/license.html). Third-party credits are available in **Settings → About → Open-source licenses**.
 
 For help with the app, email [siokraft@gmail.com](mailto:siokraft@gmail.com).
 

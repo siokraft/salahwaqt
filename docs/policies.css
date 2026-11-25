@@ -37,9 +37,6 @@ footer .site-bar > a:hover { text-decoration: underline; }
 footer .site-bar p { color: inherit; }
 footer .site-bar strong { color: var(--text); font-weight: 600; }
 .site-bar {
-  width: min(100% - 2rem, 61rem);
-  margin: auto;
-  padding: 1rem 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -48,7 +45,7 @@ footer .site-bar strong { color: var(--text); font-weight: 600; }
 }
 .brand { display: inline-flex; align-items: center; gap: 0.75rem; color: var(--text); font-weight: 650; text-decoration: none; }
 .brand img { border-radius: 0.5rem; }
-main { width: min(100% - 2rem, 44rem); margin: auto; padding: clamp(2.5rem, 8vw, 5rem) 0; }
+main > * { max-inline-size: 44rem; }
 h1 { margin: 0; font-size: 2.25rem; line-height: 2.5rem; letter-spacing: -0.025em; }
 h2 { margin: 0; font-size: 1.25rem; line-height: 1.75rem; }
 @media (min-width: 40rem) {
