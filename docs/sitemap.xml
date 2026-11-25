@@ -3,14 +3,20 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://salahwaqt.siokraft.com/</loc>
-    <lastmod>2026-11-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-25</lastmod>
     <image:image>
       <image:loc>https://salahwaqt.siokraft.com/assets/today-screen.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://salahwaqt.siokraft.com/assets/app-icon-512.png</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://salahwaqt.siokraft.com/privacy.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://salahwaqt.siokraft.com/license.html</loc>
+    <lastmod>2026-11-25</lastmod>
   </url>
 </urlset>

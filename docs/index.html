@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!-- Add the Search Console verification meta tag and GA4 Google tag here. -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Salah Waqt · Desktop Prayer Times by SIOKRAFT</title>
   <meta name="description" content="SIOKRAFT's Salah Waqt is a free Windows and Linux app with offline prayer times, a live countdown, reminders, a Hijri calendar and a Ramadan timetable.">
-  <meta name="keywords" content="prayer times, salah times, namaz times, adhan, prayer notifications, forbidden prayer times, Hijri calendar, Islamic app, Linux, Ubuntu, Linux Mint">
   <meta name="author" content="SIOKRAFT">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#f5b301">
@@ -29,7 +29,15 @@
   <link rel="icon" href="assets/favicon.ico" sizes="any">
   <link rel="icon" href="assets/app-icon-256.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/app-icon-256.png">
-  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Salah Waqt",
+    "url": "https://salahwaqt.siokraft.com/"
+  }
+  </script>
 
   <script type="application/ld+json">
   {
@@ -61,6 +69,9 @@
       --color-gold-soft: #fff9e1;
       --color-gold-night: #322d1f;
     }
+    .download-primary > svg {
+      color: inherit;
+    }
   </style>
 </head>
 <body class="bg-white text-zinc-900 antialiased dark:bg-[#111113] dark:text-zinc-100">
@@ -74,28 +85,47 @@
       </a>
       <div class="flex items-center gap-6 text-sm">
         <a href="#features" class="hidden text-zinc-600 hover:text-zinc-900 sm:inline dark:text-zinc-400 dark:hover:text-white">Features</a>
-        <a href="#privacy" class="hidden text-zinc-600 hover:text-zinc-900 sm:inline dark:text-zinc-400 dark:hover:text-white">Privacy</a>
-        <a href="#install" class="hidden text-zinc-600 hover:text-zinc-900 sm:inline dark:text-zinc-400 dark:hover:text-white">Install</a>
-        <a href="https://github.com/siokraft/salahwaqt/releases" class="rounded-lg bg-zinc-900 px-4 py-2 font-medium text-white hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200">Download</a>
+        <a href="privacy.html" class="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">Privacy &amp; Policy</a>
       </div>
     </nav>
   </header>
 
   <main id="main">
     <!-- Hero -->
-    <section class="mx-auto grid max-w-5xl items-center gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 md:py-24">
+    <section class="mx-auto grid max-w-5xl items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 md:py-24">
       <div>
         <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Muslim prayer times for your desktop</h1>
         <p class="mt-5 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
           Offline prayer times, live countdowns, and reminders. Free for Windows and Linux.
         </p>
-        <div class="mt-8 flex flex-wrap gap-3">
-          <a href="https://github.com/siokraft/salahwaqt/releases" class="inline-flex items-center gap-2 rounded-lg bg-gold px-5 py-3 font-semibold text-zinc-900 hover:brightness-95">
-            <svg class="h-5 w-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m-4-4 4 4 4-4M5 15v4a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-4"/></svg>
-            View downloads
+        <div class="mt-8 grid max-w-xl gap-3 sm:grid-cols-2">
+          <!-- Keep the button IDs for GA4. The hrefs can point to individual release assets once published. -->
+          <a id="download-windows" href="https://github.com/siokraft/salahwaqt/releases/latest" class="download-primary group flex min-h-11 items-center justify-center gap-3 rounded-xl border border-gold-deep bg-gold px-4 py-1 text-left text-zinc-900 shadow-sm transition hover:brightness-95 hover:shadow-md sm:justify-between dark:border-gold dark:bg-gold">
+            <span class="flex items-center gap-2">
+              <span class="flex h-9 w-9 shrink-0 items-center justify-center text-zinc-900">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M12 4v16M4 12h16"/></svg>
+              </span>
+              <span>
+                <span class="block font-semibold leading-tight">Windows</span>
+                <span class="mt-0.5 block text-sm leading-4 text-zinc-900 dark:text-zinc-900">64-bit installer ZIP</span>
+              </span>
+            </span>
+            <svg class="h-5 w-5 shrink-0 text-zinc-500 transition group-hover:text-gold-deep dark:text-zinc-400 dark:group-hover:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m-4-4 4 4 4-4M5 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></svg>
           </a>
-          <a href="#install" class="rounded-lg border border-zinc-300 px-5 py-3 font-semibold hover:bg-zinc-50 dark:border-zinc-700 dark:hover:bg-zinc-900">How to install</a>
+          <a id="download-linux" href="https://github.com/siokraft/salahwaqt/releases/latest" class="group flex min-h-11 items-center justify-center gap-3 rounded-xl border border-gold-deep/40 bg-gold-soft px-4 py-1 text-left shadow-sm transition hover:border-gold-deep hover:brightness-95 hover:shadow-md sm:justify-between dark:border-gold/40 dark:bg-gold-night dark:hover:border-gold">
+            <span class="flex items-center gap-2">
+              <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gold-soft text-gold-deep dark:bg-gold-night dark:text-gold">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" d="M12 22C7 20 4 16 4 11a8 8 0 1 1 16 0c0 3.7-2.8 6-6 6-3 0-5-1.9-5-4.5A3.5 3.5 0 0 1 16 12"/></svg>
+              </span>
+              <span>
+                <span class="block font-semibold leading-tight">Linux (.deb)</span>
+                <span class="mt-0.5 block text-sm leading-4 text-zinc-600 dark:text-zinc-400">64-bit Debian package</span>
+              </span>
+            </span>
+            <svg class="h-5 w-5 shrink-0 text-zinc-500 transition group-hover:text-gold-deep dark:text-zinc-400 dark:group-hover:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m-4-4 4 4 4-4M5 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></svg>
+          </a>
         </div>
+        <a href="#install" class="mt-4 inline-block text-sm font-medium underline underline-offset-4 decoration-zinc-300 hover:text-gold-deep dark:decoration-zinc-700 dark:hover:text-gold">How to install</a>
       </div>
 
       <!-- The Today screen -->
@@ -210,14 +240,11 @@
           </li>
           <li class="rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-[#111113]">
             <svg class="mb-3 h-5 w-5 text-gold-deep dark:text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="7" r="3.5"/><path stroke-linecap="round" d="M3 20v-2a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v2m1-10h4"/></svg>
-            <h3 class="font-semibold">No account</h3>
-            <p class="mt-1 text-zinc-600 dark:text-zinc-400">The app has no ads, analytics, or tracking.</p>
+            <h3 class="font-semibold">No built-in tracking</h3>
+            <p class="mt-1 text-zinc-600 dark:text-zinc-400">Salah Waqt doesn’t monitor your activity or send reports about how you use the app. There are no ads or accounts.</p>
           </li>
         </ul>
-        <details class="mt-4 text-sm">
-          <summary class="cursor-pointer font-medium">How city lookup works</summary>
-          <p class="mt-2 max-w-2xl text-zinc-600 dark:text-zinc-400">Internet lookup can estimate your city from your IP address using ipinfo.io or ipwho.is. For fully offline setup, disconnect from the internet and pick a city from the built-in list.</p>
-        </details>
+        <a href="privacy.html" class="mt-5 inline-block font-medium underline underline-offset-4 hover:text-gold-deep dark:hover:text-gold">Read the privacy policy</a>
       </div>
     </section>
 
@@ -225,7 +252,7 @@
     <section id="install" class="border-t border-zinc-200 dark:border-zinc-800">
       <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 md:py-20">
         <h2 class="text-3xl font-bold tracking-tight">Install Salah Waqt</h2>
-        <p class="mt-3 text-zinc-600 dark:text-zinc-400">Find installers under <strong>Assets</strong> on the <a class="font-medium underline underline-offset-2" href="https://github.com/siokraft/salahwaqt/releases">official Releases page</a>.</p>
+        <p class="mt-3 text-zinc-600 dark:text-zinc-400">Open the <a class="font-medium underline underline-offset-2" href="https://github.com/siokraft/salahwaqt/releases/latest">latest official release</a> and look under <strong>Assets</strong> for your download.</p>
 
         <div class="mt-8 grid gap-6 md:grid-cols-2">
           <article aria-labelledby="install-windows" class="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800">
@@ -235,11 +262,19 @@
             </div>
             <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">Windows 10 and 11 (64-bit)</p>
             <ol class="mt-4 list-decimal space-y-3 pl-5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
-              <li>Download <code class="break-all">Salah_Waqt_v&lt;version&gt;.exe</code> when available.</li>
-              <li>Open the installer and follow the prompts.</li>
+              <li>Download <code class="break-all">Salah_Waqt_Setup_v&lt;version&gt;.zip</code> when available.</li>
+              <li>In Downloads, right-click the ZIP and choose <strong>Extract All</strong>.</li>
+              <li>In the extracted folder, open <strong>readme.pdf</strong> for help or double-click <strong>Salah_Waqt_v&lt;version&gt;.exe</strong> to install.</li>
               <li>Open <strong>Salah Waqt</strong> from the Start menu and complete setup.</li>
             </ol>
-            <p class="mt-4 text-sm text-zinc-600 dark:text-zinc-400">Windows may warn about the unsigned installer. Use the official Releases page.</p>
+            <p class="mt-4 rounded-lg bg-gold-soft px-4 py-3 text-sm leading-relaxed text-zinc-700 dark:bg-gold-night dark:text-zinc-200">The ZIP includes the Windows installer and <strong>readme.pdf</strong>. Windows may show a warning because the installer is unsigned. Download it from the official Releases page and email us if you’re unsure.</p>
+            <section aria-labelledby="windows-scan" class="mt-4 rounded-lg border border-zinc-200 p-4 dark:border-zinc-800">
+              <div class="flex items-center gap-2.5">
+                <svg class="h-5 w-5 shrink-0 text-emerald-700 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 22s7-3.5 7-10V5l-7-3-7 3v7c0 6.5 7 10 7 10Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m9 12 2 2 4-4"/></svg>
+                <h4 id="windows-scan" class="font-semibold">Antivirus scan</h4>
+              </div>
+              <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">You can scan the downloaded ZIP with Microsoft Defender Antivirus before extracting it.</p>
+            </section>
             <details class="mt-4 text-sm">
               <summary class="cursor-pointer font-medium">Install options and uninstall</summary>
               <p class="mt-2 text-zinc-600 dark:text-zinc-400">Installing for everyone requires administrator permission. Updates keep your settings.</p>
@@ -272,23 +307,33 @@
         </div>
       </div>
     </section>
+    <section id="contact" aria-labelledby="contact-title" class="border-t border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900">
+      <div class="mx-auto flex max-w-5xl flex-col gap-5 px-4 py-12 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+        <div>
+          <h2 id="contact-title" class="text-3xl font-bold tracking-tight">Get in touch</h2>
+          <p class="mt-2 text-zinc-600 dark:text-zinc-400">Email us for help with Salah Waqt, to report a problem, or to share feedback.</p>
+        </div>
+        <a href="mailto:siokraft@gmail.com" class="self-start rounded-xl border border-gold-deep/40 bg-gold-soft px-4 py-3 font-medium hover:brightness-95 sm:self-center dark:border-gold/40 dark:bg-gold-night">siokraft@gmail.com</a>
+      </div>
+    </section>
   </main>
 
   <footer class="border-t border-zinc-200 dark:border-zinc-800">
     <div class="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-8 text-sm text-zinc-600 sm:flex-row sm:items-start sm:justify-between sm:px-6 dark:text-zinc-400">
       <div class="space-y-2">
-        <p>© 2026 SIOKRAFT. All rights reserved.</p>
+        <p>&copy; 2026 <strong class="font-semibold text-zinc-900 dark:text-zinc-100">SIOKRAFT</strong>. All rights reserved.</p>
         <details>
-          <summary class="cursor-pointer font-medium">Credits and license</summary>
-          <p class="mt-2">Free to use and share unchanged with the license and notices. Resale is prohibited. Selected contributors can request source access.</p>
+          <summary class="cursor-pointer font-medium">Third-party credits</summary>
           <p class="mt-2">Prayer and fasting times use <a href="https://pub.dev/packages/adhan" class="underline underline-offset-2">adhan</a>. Hijri dates use <a href="https://pub.dev/packages/hijri" class="underline underline-offset-2">hijri</a>, local time uses <a href="https://pub.dev/packages/timezone" class="underline underline-offset-2">timezone</a> with IANA data, and date formatting uses <a href="https://pub.dev/packages/intl" class="underline underline-offset-2">intl</a>.</p>
           <p class="mt-2">Find full notices in <strong>Settings → About → Open-source licenses</strong>.</p>
         </details>
       </div>
-      <div class="flex shrink-0 gap-5">
-        <a href="https://github.com/siokraft/salahwaqt/releases" class="hover:text-zinc-900 dark:hover:text-white">Releases</a>
-        <a href="mailto:siokraft@gmail.com" class="hover:text-zinc-900 dark:hover:text-white">Contact</a>
-      </div>
+      <nav aria-label="Footer" class="flex shrink-0 flex-wrap gap-x-5 gap-y-2">
+        <a href="privacy.html#license" class="underline-offset-4 hover:underline">Freeware policy</a>
+        <a href="privacy.html" class="underline-offset-4 hover:underline">Privacy &amp; Policy</a>
+        <a href="https://github.com/siokraft/salahwaqt/releases" class="underline-offset-4 hover:underline">Releases</a>
+        <a href="https://siokraft.com/" class="underline-offset-4 hover:underline">siokraft.com</a>
+      </nav>
     </div>
   </footer>
 </body>

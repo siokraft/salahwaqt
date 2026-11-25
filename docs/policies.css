@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light dark;
+  --background: #fff;
+  --text: #18181b;
+  --muted: #52525b;
+  --border: #e4e4e7;
+  --accent: #755600;
+  --highlight: #fff9e1;
+  --site-link: oklch(44.2% 0.017 285.786);
+  --site-link-hover: oklch(21% 0.006 285.885);
+  font-family: system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #111113;
+    --text: #f4f4f5;
+    --muted: #c3c3cb;
+    --border: #34343a;
+    --accent: #f5b301;
+    --highlight: #322d1f;
+    --site-link: oklch(70.5% 0.015 286.067);
+    --site-link-hover: #fff;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--background); color: var(--text); line-height: 1.65; }
+a { color: var(--accent); text-underline-offset: 0.2em; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.skip-link { position: absolute; top: 1rem; left: 1rem; background: var(--background); }
+.skip-link:not(:focus) { clip-path: inset(50%); }
+header { border-bottom: 1px solid var(--border); }
+footer { border-top: 1px solid var(--border); color: var(--site-link); }
+footer, header .site-bar > a:not(.brand) { font-size: 0.875rem; line-height: 1.25rem; }
+header .site-bar > a:not(.brand), footer .site-bar > a { color: var(--site-link); text-decoration: none; }
+header .site-bar > a:not(.brand):hover { color: var(--site-link-hover); }
+footer .site-bar > a:hover { text-decoration: underline; }
+footer .site-bar p { color: inherit; }
+footer .site-bar strong { color: var(--text); font-weight: 600; }
+.site-bar {
+  width: min(100% - 2rem, 61rem);
+  margin: auto;
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.25rem;
+}
+.brand { display: inline-flex; align-items: center; gap: 0.75rem; color: var(--text); font-weight: 650; text-decoration: none; }
+.brand img { border-radius: 0.5rem; }
+main { width: min(100% - 2rem, 44rem); margin: auto; padding: clamp(2.5rem, 8vw, 5rem) 0; }
+h1 { margin: 0; font-size: 2.25rem; line-height: 2.5rem; letter-spacing: -0.025em; }
+h2 { margin: 0; font-size: 1.25rem; line-height: 1.75rem; }
+@media (min-width: 40rem) {
+  h1 { font-size: 3rem; line-height: 1; }
+}
+p { margin: 0.75rem 0 0; color: var(--muted); }
+main li { color: var(--muted); }
+.date { font-size: 0.875rem; }
+.intro { font-size: 1.125rem; }
+section { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+.contact { padding: 1.25rem; background: var(--highlight); border: 1px solid var(--border); border-radius: 1rem; }
+.site-bar p { margin: 0; }

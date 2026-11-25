@@ -1,75 +1,44 @@
-<div align="center">
-
 # Salah Waqt
 
-**Prayer times, prayer alerts and forbidden-time alerts for your desktop.**
+Salah Waqt is a free app for Windows and Linux. It shows prayer times for your city, counts down to the next prayer, and can remind you when it’s time to pray.
 
-[Website](https://siokraft.github.io/salahwaqt/) · [Download](https://github.com/siokraft/salahwaqt/releases/latest) · [Contact](mailto:siokraft@gmail.com)
+[Download Salah Waqt](https://github.com/siokraft/salahwaqt/releases/latest) · [Website](https://salahwaqt.siokraft.com/) · [Get help](mailto:siokraft@gmail.com)
 
-</div>
+## Download and install
 
-## What it does
+Open the [latest release](https://github.com/siokraft/salahwaqt/releases/latest). Scroll to **Assets**, the list of files you can download.
 
-- **Live countdown** to the end of the current prayer, with today's five prayer times.
-- **Prayer alerts** when a prayer starts, before it ends, and just before the end.
-- **Forbidden times** (sunrise, midday, sunset), explained with the Hadith behind them.
-- **Calendar** with Hijri dates, Suhoor and Iftar, five years back and ahead.
-- **Accurate anywhere:** 12 calculation methods, Hanafi or Shafi'i Asr.
-- **Private:** works offline, no account, no ads, no tracking.
+### Windows
 
-## Install on Linux
+For 64-bit Windows 10 and 11.
 
-1. Download `salah-waqt_<version>_amd64.deb` from the [latest release](https://github.com/siokraft/salahwaqt/releases/latest).
-2. Open it with the App Center, or run:
-   ```bash
-   cp salah-waqt_*.deb /tmp/ && sudo apt install /tmp/salah-waqt_*.deb
-   ```
-3. Open **Salah Waqt** from your app menu and answer five quick setup questions.
+1. Download the file that starts with **Salah_Waqt_Setup** and ends in **.zip**.
+2. In your **Downloads** folder, right-click the ZIP, choose **Extract All**, then click **Extract**.
+3. Open the new folder. Double-click the **Salah_Waqt_v…** installer and follow the prompts. Open **readme.pdf** if you’d like a guide with pictures.
+4. Open **Salah Waqt** from the Start menu.
 
-To uninstall: `sudo apt remove salah-waqt` (keeps your settings) or `sudo apt purge salah-waqt`
-(removes everything).
+Windows may show a warning because the installer is unsigned. If you’re unsure, [email SIOKRAFT](mailto:siokraft@gmail.com). To remove the app, look for **Salah Waqt** in **Windows Settings → Apps**.
 
-## Supported systems
+### Linux
 
-| System | Supported |
-|---|---|
-| Ubuntu 22.04 or newer (and its flavours) | ✅ |
-| Linux Mint 21 or newer, LMDE 6 or newer | ✅ |
-| Pop!_OS 22.04, Zorin OS 17, elementary OS 7 or newer | ✅ |
-| Debian 12 or newer | ✅ |
-| Older versions, Fedora, Arch, 32-bit or ARM computers | ❌ Not yet |
+For 64-bit Intel or AMD computers running Ubuntu 22.04 or later, Debian 12 or later, or a compatible system such as Linux Mint 21 or later.
 
-Needs a 64-bit Intel or AMD (x86-64) processor.
+1. Download the file that ends in **_amd64.deb**.
+2. Open it with your computer’s software installer and choose **Install**.
+3. Open **Salah Waqt** from your app menu.
 
-## Coming next
+## Using Salah Waqt
 
-- **Windows**: next on the list.
-- **macOS, Android and iOS**: later.
+Choose your city when you first open the app. The calendar shows prayer times, Hijri dates, and Ramadan fasting times. To turn on reminders, open **Settings → Notifications** and leave the app running.
 
-Follow this repository's Releases to hear when a new version is out.
+Your saved cities and settings stay on your computer. The app has no ads, accounts, or built-in tracking. Read the [privacy policy](https://salahwaqt.siokraft.com/privacy.html) for how city lookup works.
 
-## Collaboration and contributions
+## License and support
 
-The source code is private. This repository holds only the website and the downloads.
+Salah Waqt is free to use. You may share the original download for free with its license and credits intact. Resale is prohibited. This repository holds the public website and downloads. SIOKRAFT develops the app internally and keeps the source code private.
 
-- **Found a problem or have an idea?** Open an [issue](https://github.com/siokraft/salahwaqt/issues)
-  or email [siokraft@gmail.com](mailto:siokraft@gmail.com).
-- **Want to contribute to the code?** Email us with who you are and what you'd like to work on.
-  Access is given to selected people on request.
+Read the [freeware license](https://github.com/siokraft/salahwaqt/blob/master/LICENSE). Third-party credits are available in **Settings → About → Open-source licenses**.
 
-## License
+For help with the app, email [siokraft@gmail.com](mailto:siokraft@gmail.com).
 
-Salah Waqt is free to use, with no hidden charges, subscriptions or ads. Reselling the app is
-strictly prohibited, and SIOKRAFT will take appropriate action against anyone who does so.
-
-- ✅ Use it on any number of devices, and share it unchanged, free of charge.
-- ❌ Don't sell it, change it, or remove its credits.
-
-The app is provided as is, without warranty. The full license comes with the app: open
-**Settings → About → Open-source licenses → salah_waqt**.
-
-<div align="center">
-
-© 2026 SIOKRAFT. All rights reserved.
-
-</div>
+© 2026 [SIOKRAFT](https://siokraft.com/). All rights reserved.
