@@ -2,11 +2,11 @@
 
 Salah Waqt is a free app for Windows and Linux. It shows prayer times for your city, counts down to the next prayer, and can remind you when it’s time to pray.
 
-[Website](https://salahwaqt.siokraft.com/) · [Get help](mailto:siokraft@gmail.com)
+[Download Salah Waqt](https://github.com/siokraft/salahwaqt/releases/latest) · [Website](https://salahwaqt.siokraft.com/) · [Get help](mailto:siokraft@gmail.com)
 
 ## Download and install
 
-Visit the [Salah Waqt website](https://salahwaqt.siokraft.com/) to download the package for your system.
+Open the [latest release](https://github.com/siokraft/salahwaqt/releases/latest). Scroll to **Assets**, the list of files you can download.
 
 ### Windows
 
@@ -14,7 +14,7 @@ For 64-bit Windows 10 and 11.
 
 Check the [Microsoft Store section](https://salahwaqt.siokraft.com/#microsoft-store) for availability. For the ZIP installer, follow the steps below.
 
-1. Download `salah_waqt_v1.0.0_windows_x64.zip` from the website.
+1. Download `salah_waqt_v<version>_windows_x64.zip`.
 2. In your **Downloads** folder, right-click the ZIP, choose **Extract All**, then click **Extract**.
 3. Open the new folder. Double-click the **Salah_Waqt_v…** installer and follow the prompts. If included, **readme.pdf** has illustrated instructions.
 4. Open **Salah Waqt** from the Start menu.
@@ -25,7 +25,7 @@ The [website installation guide](https://salahwaqt.siokraft.com/#install) covers
 
 For 64-bit Intel or AMD computers running Ubuntu 22.04 or later, Debian 12 or later, or a compatible system such as Linux Mint 21 or later.
 
-1. Download `salah_waqt_v1.0.0_linux_amd64.deb` from the website.
+1. Download `salah_waqt_v<version>_linux_amd64.deb`.
 2. Open it with your computer’s software installer and choose **Install**.
 3. Open **Salah Waqt** from your app menu.
 
