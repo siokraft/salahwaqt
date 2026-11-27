@@ -12,12 +12,14 @@ Open the [latest release](https://github.com/siokraft/salahwaqt/releases/latest)
 
 For 64-bit Windows 10 and 11.
 
-Check the [Microsoft Store section](https://salahwaqt.siokraft.com/#microsoft-store) for availability. For the ZIP installer, follow the steps below.
+Install Salah Waqt from the [Microsoft Store](https://apps.microsoft.com/detail/9MTR46HGG19H). For the ZIP installer, follow the steps below.
 
 1. Download `salah_waqt_v<version>_windows_x64.zip`.
 2. In your **Downloads** folder, right-click the ZIP, choose **Extract All**, then click **Extract**.
 3. Open the new folder. Double-click the **Salah_Waqt_v…** installer and follow the prompts. If included, **readme.pdf** has illustrated instructions.
 4. Open **Salah Waqt** from the Start menu.
+
+The Windows installer offers an optional **Create a desktop shortcut** checkbox starting with v1.0.1.
 
 The [website installation guide](https://salahwaqt.siokraft.com/#install) covers Microsoft Defender scans and SmartScreen warnings. To remove the app, find **Salah Waqt** in **Windows Settings → Apps**.
 
@@ -31,7 +33,9 @@ For 64-bit Intel or AMD computers running Ubuntu 22.04 or later, Debian 12 or la
 
 ## Using Salah Waqt
 
-Choose your city when you first open the app. The calendar shows prayer times and Hijri dates. The Ramadan timetable shows Suhoor and Iftar times. Set up reminders in **Settings → Notifications** and leave the app open or in the system tray. Turn on **Silent notifications** to receive them without sound.
+Choose your city when you first open the app. Calendar shows prayer times, Hijri dates, and regular Suhoor and Iftar times. During Ramadan, follow the timetable in the **Ramadan** tab, as fasting times may differ. Set up reminders in **Settings → Notifications** and leave the app open or in the system tray. Turn on **Silent notifications** to receive them without sound.
+
+Starting with v1.0.1, reopening the window after closing it shows **Today**. Minimizing and restoring keeps your current view.
 
 Your saved cities and settings stay on your computer. The app has no ads, accounts, or built-in tracking. Read the [privacy policy](https://salahwaqt.siokraft.com/privacy.html) for how city lookup works.
 
